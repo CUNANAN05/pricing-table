@@ -1,0 +1,39 @@
+section {
+    width: 100%;
+    padding: 4rem 0.1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+}
+
+.price {
+    margin: 2;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info li {
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0 auto;
+}
+
+.container {
+    background-color: rgb(168, 165, 168);
+    border-radius: 1rem;
+    margin: 2;
+    padding: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.container>div {
+    background-color: rgb(120, 180, 120); 
+    min-width: 240px;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
